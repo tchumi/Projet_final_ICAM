@@ -1,0 +1,44 @@
+name: .conda  # Nom de l'environnement Conda
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - geopandas
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - folium
+  - shapely
+  - pyproj
+  - pyarrow
+  - h5py
+  - protobuf
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - ipython
+  - pip
+  - pip:
+      - streamlit
+      - streamlit-folium
+      - ace_tools
+      - tensorflow
+      - tensorflow-io-gcs-filesystem
+      - tensorboard
+      - keras
+      - scikeras
+      - missingno
+      - joblib
+      - pydeck
+      - namex
+      - narwhals
+      - watchdog
+      - markdown-it-py
+      - markdown
+      - optree
+      - opt_einsum
+      - ml-dtypes

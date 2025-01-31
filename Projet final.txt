@@ -1,0 +1,157 @@
+Projet final
+
+Cédric Bobenrieth
+
+- 9 j travaux, 1 j soutenance
+- soutenance 20 mn + 5 mn d'échange
+
+contenu
+- ETL
+- analyse de données
+- visualisation des données
+
+Présentation
+- difficulté : s'adresser à des novices et des spécialistes
+- répondre à une problématique
+- ppt + présentation dataviz 
+
+
+Open data university (association)
+- DDRS : sujet orienté dév durable responsabilité sociétale
+- publication sur data.gouv
+- concours jury national (élection en mai et présentation début juin)
+
+
+Système de mentorat
+- accompagnement par professionnels de la data par réunion de groupe
+	- dispo par mail
+	- un échange visio max 1H
+- 1 mentor par sujet
+
+
+
+
+Présentation
+
+- méthodologie
+- problématique
+- ETL
+- analyse
+- prédiction
+- facteurs d'influence
+- dataviz
+	- menu
+	- mettre en place des filtres pour visualiser les data
+conclusion
+- critique
+- perspectives
+
+
+
+2-3 mn intro
+5 mn traitement
+visu
+résultats
+conclusion
+critique
+perspectives
+
+
+----------------------------
+
+Open Data University
+
+association latitude
+- 2017
+- promouvoir tech engagée et responsable
+
+saison 3
+- acculturer
+- valoriser les données (adoption)
+
+espace notion 
+- ressources (data, outils etc.)
+
+webinaires
+- en replay
+- 4 février
+
+open data
+- HDYQEY wooclap.com
+- mouvement politique idem open source
+
+
+
+
+-------------------
+
+Election
+
+- analyse par bureau de vote
+- data visualisation
+- éditorialisation (corrélation avec variable socio démographique)
+
+
+
+recherche.data.gouv
+
+
+madada.fr
+
+
+open food facts
+
+common crawl : scan des pages web depuis 2007
+
+
+
+--------------------------------------------------------------
+
+corrélation
+prédiction
+dynamique
+fractalité des dynamiques, clivages 
+influence de l'organisation politico culturelle sur la dynamique de la fractalité (Paris -> France)
+géographie
+stock et flux
+évènements
+1er et 2ième tour
+facteurs de corrélation : niveau d'étude, logements sociaux, csp, patrimoine, revenu du capital (Piketty), structure familiale (E Todd), engagement religieux, 
+influence, consentement, propagande
+discours, programme, 
+structure orga politique, moyens financiers
+quelle dynamique sous-tend la formation des groupes sociaux (élites urbaines votent Macron en 2017) : influence, défense des intérêts, idéal politique, preuve sociale (appartenance au territoire)
+pourquoi faut-il nuancer les résultats : les mêmes configurations ne produisent pas les mêmes effets
+résistance des bastions historiques
+report de voix (corrélation) candidat élection n-1 vers candidat élection n
+poids du patrimoine dans la fidélité au groupe au moment du vote, ancrage du vote historique (Paris 2017)
+matrice de corrélation 2017 https://metropolitiques.eu/Paris-23-avril-2017-un-renouveau-des-clivages-socio-politiques.html
+est-ce qu'un mélange des populations fragmentent le vote ? moins de déterminisme de groupe social (Lille 2017) => Mélenchon en tête dans des espaces mixtes socialement en 2017
+quels sont les invariants (exemple : abstention=pauvreté, revenus modestes, chômage, niveau scolaire faible)
+est-ce qu'on observer un regroupement des électeurs avec le clivage des votes ?
+
+vote des noyaux villageois en faveur du FN à Marseille en 2012 https://joelgombin.github.io/makingof.html
+- CARTELEC cartographie des bureaux de vote
+- étude de la géographie urbaine des votes : utilisation de données IRIS 
+
+histoire des conflits Piketty : https://unehistoireduconflitpolitique.fr/livre.html
+- exprimer une part de la variance en fonction d'une grandeur
+- depuis 2022 retour de la tripartition d'avant 1900 : zones urbaines et rurales pauvres votent à gauche et classe moyenne aisée et riche vote au centre
+- clivage gauche droite fonction de la richesse en zone urbaine contredit par le monde rural qui vote à droite pour les plus pauvres
+- 2022 : variance expliquée par la richesse économique de la commune et la taille d’agglomération et de commune
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
