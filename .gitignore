@@ -3,3 +3,4 @@
 .conda
 .venv
 exploration/*.csv
+*.csv
