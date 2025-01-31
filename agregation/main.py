@@ -5,7 +5,7 @@ def load_dataset(file_path, columns, dtypes, sep=','):
     """Charge un dataset en filtrant les colonnes utiles et en appliquant les types de données spécifiés."""
     df = pd.read_csv(file_path, sep=sep, dtype=dtypes, low_memory=False)
     
-    # Vérifier les colonnes disponibles
+    # Vérifier quelles colonnes sont disponibles
     available_columns = set(df.columns)
     expected_columns = set(columns)
     missing_columns = expected_columns - available_columns
@@ -13,7 +13,7 @@ def load_dataset(file_path, columns, dtypes, sep=','):
     if missing_columns:
         with open("diagnostic_manquants.txt", "a", encoding="utf-8") as diag_file:
             diag_file.write(f"⚠️ Manque dans {file_path} : {', '.join(missing_columns)}\n")
-        print(f"⚠️ Colonnes manquantes dans {file_path} -> {missing_columns}")
+        print(f"⚠️ Attention : Colonnes manquantes dans {file_path} -> {missing_columns}")
     
     # Filtrer les colonnes existantes uniquement
     cols_to_keep = [col for col in columns if col in available_columns]
@@ -21,8 +21,8 @@ def load_dataset(file_path, columns, dtypes, sep=','):
     
     # Vérifier unicité de 'codecommune'
     if df["codecommune"].duplicated().sum() > 0:
-        print(f"⚠️ {file_path} contient des doublons sur 'codecommune'. Agrégation en cours.")
-        df = df.groupby("codecommune").mean().reset_index()
+        print(f"⚠️ Attention : {file_path} contient des doublons sur 'codecommune'. On va les agréger.")
+        df = df.groupby("codecommune").mean().reset_index()  # On agrège pour éviter les doublons
     
     return df
 
@@ -32,8 +32,8 @@ DATA_DIR = "C:/Users/Admin.local/Documents/Projet_final_data/Piketty_data"
 DATASETS = {
     "revenus": {
         "file": "Revenus_csv/revcommunes.csv",
-        "columns": ["codecommune", "nomcommune", "revmoy2022", "revmoyfoy2022", "revratio2022"],
-        "dtypes": {"codecommune": str, "nomcommune": str, "revmoy2022": float, "revmoyfoy2022": float, "revratio2022": float}
+        "columns": ["codecommune", "revmoy2022", "revmoyfoy2022", "revratio2022"],
+        "dtypes": {"codecommune": str, "revmoy2022": float, "revmoyfoy2022": float, "revratio2022": float}
     },
     "csp": {
         "file": "CSP_csv/cspcommunes.csv",
@@ -58,7 +58,8 @@ DATASETS = {
     "ages": {
         "file": "Age_csp/agesexcommunes.csv",
         "columns": ["codecommune", "pop2022", "propf2022", "prop0142022", "prop15392022", "prop40592022", "prop60p2022", "age2022"],
-        "dtypes": {"codecommune": str, "pop2022": int, "propf2022": float, "prop0142022": float, "prop15392022": float, "prop40592022": float, "prop60p2022": float, "age2022": float}
+        "dtypes": {"codecommune": str, "pop2022": int, "propf2022": float, "prop0142022": float, "prop15392022": float, 
+                   "prop40592022": float, "prop60p2022": float, "age2022": float}
     },
     "pib": {
         "file": "Revenus_csv/pibcommunes.csv",
@@ -74,6 +75,15 @@ DATASETS = {
         "file": "Capital_immobilier_csv/isfcommunes.csv",
         "columns": ["codecommune", "pisf2022"],
         "dtypes": {"codecommune": str, "pisf2022": float}
+    },
+    "presidentielle_2022": {
+        "file": "pres2022_csv/pres2022comm.csv",
+        "columns": ["codecommune", "exprimes", "voteG", "voteCG", "voteC", "voteCD", "voteD", "voteTG", "voteTD",
+                    "voteGCG", "voteDCD", "pvoixT2MACRON", "pvoixT2MLEPEN", "pabs", "pblancsnuls", "pabsT2", "pblancsnulsT2"],
+        "dtypes": {"codecommune": str, "exprimes": float, "voteG": float, "voteCG": float, "voteC": float,
+                   "voteCD": float, "voteD": float, "voteTG": float, "voteTD": float, "voteGCG": float,
+                   "voteDCD": float, "pvoixT2MACRON": float, "pvoixT2MLEPEN": float, "pabs": float, 
+                   "pblancsnuls": float, "pabsT2": float, "pblancsnulsT2": float}
     }
 }
 
