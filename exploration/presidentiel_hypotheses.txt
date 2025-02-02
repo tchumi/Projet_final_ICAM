@@ -1,0 +1,76 @@
+🗳️ **Élection 1965**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1965_csv\pres1965comm.csv
+🔹 Hypothèse 2 (somme des votes de base = total gauche/droite) : ✅ Vérifiée
+🔹 Hypothèse 3 (voix sans extrêmes = total sans extrêmes) : ⚠️ Écart détecté : -3791933 voix
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1969**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1969_csv\pres1969comm.csv
+🔹 Hypothèse 2 (somme des votes de base = total gauche/droite) : ✅ Vérifiée
+🔹 Hypothèse 3 (voix sans extrêmes = total sans extrêmes) : ⚠️ Écart détecté : -284403 voix
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1974**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1974_csv\pres1974comm.csv
+🔹 Hypothèse 2 (somme des votes de base = total gauche/droite) : ✅ Vérifiée
+🔹 Hypothèse 3 (voix sans extrêmes = total sans extrêmes) : ⚠️ Écart détecté : -189788 voix
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1981**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1981_csv\pres1981comm.csv
+🔹 Hypothèse 2 (somme des votes de base = total gauche/droite) : ✅ Vérifiée
+🔹 Hypothèse 3 (voix sans extrêmes = total sans extrêmes) : ⚠️ Écart détecté : -217021 voix
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1988**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1988_csv\pres1988comm.csv
+🔹 Hypothèse 2 (somme des votes de base = total gauche/droite) : ✅ Vérifiée
+🔹 Hypothèse 3 (voix sans extrêmes = total sans extrêmes) : ⚠️ Écart détecté : -214080 voix
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1995**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1995_csv\pres1995comm.csv
+🔹 Hypothèse 2 (somme des votes de base = total gauche/droite) : ✅ Vérifiée
+🔹 Hypothèse 3 (voix sans extrêmes = total sans extrêmes) : ⚠️ Écart détecté : -16215 voix
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2002**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2002_csv\pres2002comm.csv
+🔹 Hypothèse 2 (somme des votes de base = total gauche/droite) : ✅ Vérifiée
+🔹 Hypothèse 3 (voix sans extrêmes = total sans extrêmes) : ⚠️ Écart détecté : -2337004 voix
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2007**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2007_csv\pres2007comm.csv
+🔹 Hypothèse 2 (somme des votes de base = total gauche/droite) : ✅ Vérifiée
+🔹 Hypothèse 3 (voix sans extrêmes = total sans extrêmes) : ⚠️ Écart détecté : -83788 voix
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2012**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2012_csv\pres2012comm.csv
+🔹 Hypothèse 2 (somme des votes de base = total gauche/droite) : ✅ Vérifiée
+🔹 Hypothèse 3 (voix sans extrêmes = total sans extrêmes) : ⚠️ Écart détecté : -3284344 voix
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2017**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2017_csv\pres2017comm.csv
+🔹 Hypothèse 2 (somme des votes de base = total gauche/droite) : ✅ Vérifiée
+🔹 Hypothèse 3 (voix sans extrêmes = total sans extrêmes) : ⚠️ Écart détecté : -8888337 voix
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2022**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2022_csv\pres2022comm.csv
+🔹 Hypothèse 2 (somme des votes de base = total gauche/droite) : ✅ Vérifiée
+🔹 Hypothèse 3 (voix sans extrêmes = total sans extrêmes) : ⚠️ Écart détecté : -10137132 voix
+
+--------------------------------------------------------------------------------

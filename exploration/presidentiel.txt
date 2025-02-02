@@ -1,0 +1,112 @@
+🗳️ **Élection 1965**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1965_csv\pres1965comm.csv
+🔹 Candidats du 1er tour : BARBU, MITTERRAND, LECANUET, DEGAULLE, MARCILHACY, TIXIERVIGNANCOUR
+🔹 Candidats du 2nd tour : MITTERRAND, DEGAULLE
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Total votes regroupement : 68,220,442.0 (≃ 284.20% des exprimés, 239.75% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 44,216,317.0 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1969**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1969_csv\pres1969comm.csv
+🔹 Candidats du 1er tour : KRIVINE, ROCARD, DUCLOS, DEFFERRE, DUCATEL, POMPIDOU, POHER
+🔹 Candidats du 2nd tour : POHER, POMPIDOU
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Total votes regroupement : 66,066,546.0 (≃ 298.71% des exprimés, 230.50% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 43,949,563.0 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1974**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1974_csv\pres1974comm.csv
+🔹 Candidats du 1er tour : KRIVINE, LAGUILLER, DUMONT, MITTERRAND, HERAUD, MULLER, SEBAG, CHABANDELMAS, GISCARDDESTAING, ROYER, RENOUVIN, LEPEN
+🔹 Candidats du 2nd tour : MITTERRAND, GISCARDDESTAING
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Total votes regroupement : 76,752,223.02113152 (≃ 299.26% des exprimés, 251.95% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 51,104,886.02112961 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1981**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1981_csv\pres1981comm.csv
+🔹 Candidats du 1er tour : LAGUILLER, MARCHAIS, BOUCHARDEAU, MITTERRAND, CREPEAU, LALONDE, GISCARDDESTAING, CHIRAC, DEBRE, GARAUD
+🔹 Candidats du 2nd tour : MITTERRAND, GISCARDDESTAING
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Total votes regroupement : 83,044,433.05163126 (≃ 299.22% des exprimés, 240.48% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 55,290,615.05163126 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1988**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1988_csv\pres1988comm.csv
+🔹 Candidats du 1er tour : LAGUILLER, BOUSSEL, JUQUIN, LAJOINIE, MITTERRAND, WAECHTER, BARRE, CHIRAC, LEPEN
+🔹 Candidats du 2nd tour : MITTERRAND, CHIRAC
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Total votes regroupement : 83,513,250.22987133 (≃ 299.23% des exprimés, 240.69% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 55,604,140.22987133 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1995**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1995_csv\pres1995comm.csv
+🔹 Candidats du 1er tour : LAGUILLER, HUE, VOYNET, JOSPIN, CHEMINADE, CHIRAC, BALLADUR, VILLIERS, LEPEN
+🔹 Candidats du 2nd tour : JOSPIN, CHIRAC
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Total votes regroupement : 91,883,106.06537274 (≃ 299.95% des exprimés, 231.33% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 61,249,999.065372735 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2002**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2002_csv\pres2002comm.csv
+🔹 Candidats du 1er tour : LAGUILLER, BESANCENOT, GLUCKSTEIN, HUE, TAUBIRA, MAMERE, CHEVENEMENT, JOSPIN, LEPAGE, SAINTJOSSE, BAYROU, CHIRAC, MADELIN, BOUTIN, MEGRET, LEPEN
+🔹 Candidats du 2nd tour : CHIRAC, LEPEN
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Total votes regroupement : 83,154,037.60156618 (≃ 291.80% des exprimés, 205.26% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 54,657,023.60156332 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2007**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2007_csv\pres2007comm.csv
+🔹 Candidats du 1er tour : LAGUILLER, BESANCENOT, SCHIVARDI, BUFFET, BOVE, VOYNET, ROYAL, NIHOUS, BAYROU, SARKOZY, VILLIERS, LEPEN
+🔹 Candidats du 2nd tour : ROYAL, SARKOZY
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Total votes regroupement : 109,385,690.18035258 (≃ 299.77% des exprimés, 252.54% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 72,895,864.18035258 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2012**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2012_csv\pres2012comm.csv
+🔹 Candidats du 1er tour : ARTHAUD, POUTOU, MELENCHON, JOLY, HOLLANDE, CHEMINADE, BAYROU, SARKOZY, DUPONTAIGNAN, MLEPEN
+🔹 Candidats du 2nd tour : HOLLANDE, SARKOZY
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Total votes regroupement : 103,357,649.3547508 (≃ 290.76% des exprimés, 232.18% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 67,810,318.35475032 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2017**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2017_csv\pres2017comm.csv
+🔹 Candidats du 1er tour : ARTHAUD, POUTOU, MELENCHON, HAMON, CHEMINADE, LASSALLE, MACRON, FILLON, ASSELINEAU, DUPONTAIGNAN, MLEPEN
+🔹 Candidats du 2nd tour : MACRON, MLEPEN
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Total votes regroupement : 100,212,830.90227126 (≃ 275.56% des exprimés, 215.32% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 63,845,774.90271138 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2022**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2022_csv\pres2022comm.csv
+🔹 Candidats du 1er tour : ARTHAUD, POUTOU, ROUSSEL, MELENCHON, JADOT, HIDALGO, LASSALLE, MACRON, PECRESSE, ZEMMOUR, DUPONTAIGNAN, MLEPEN
+🔹 Candidats du 2nd tour : MACRON, MLEPEN
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Total votes regroupement : 96,215,991.0386666 (≃ 271.41% des exprimés, 202.40% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 60,764,950.03697479 voix.
+
+--------------------------------------------------------------------------------
+
+
+🏛️ **Analyse des familles politiques spécifiques**
