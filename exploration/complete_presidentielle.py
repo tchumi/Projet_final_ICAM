@@ -55,9 +55,9 @@ def enrich_election_data(file_path, election_year):
 
         # Initialisation des nouvelles colonnes avec des valeurs par défaut
         for famille in ["ED", "D", "CD", "C", "G"]:
-            df[f"voixT2_{famille}"] = 0
-            df[f"pvoixT2_{famille}"] = 0.0  # Force en float
-            df[f"pvoixT2_{famille}ratio"] = 0.0  # Force en float
+            df[f"voteT2_{famille}"] = 0
+            df[f"pvoteT2_{famille}"] = 0.0  # Force en float
+            df[f"pvoteT2_{famille}ratio"] = 0.0  # Force en float
 
         # Attribution des votes aux familles politiques, ligne par ligne
         for candidat, famille in familles_politique_t2.get(election_year, {}).items():
@@ -65,11 +65,15 @@ def enrich_election_data(file_path, election_year):
             pvoix_col = f"pvoixT2{candidat.upper()}"
             pvoix_ratio_col = f"pvoixT2{candidat.upper()}ratio"
 
+            vote_col = f"voteT2_{famille}"
+            pvote_col = f"pvoteT2_{famille}"
+            pvote_ratio_col = f"pvoteT2_{famille}ratio"
+
             if voix_col in df.columns:
                 df[voix_col] = (
                     pd.to_numeric(df[voix_col], errors="coerce").fillna(0).astype(int)
                 )
-                df[f"voixT2_{famille}"] = df[voix_col]
+                df[vote_col] = df[voix_col]
 
             if pvoix_col in df.columns:
                 df[pvoix_col] = (
@@ -77,7 +81,7 @@ def enrich_election_data(file_path, election_year):
                     .fillna(0)
                     .astype(float)
                 )
-                df[f"pvoixT2_{famille}"] = df[pvoix_col]
+                df[pvote_col] = df[pvoix_col]
 
             if pvoix_ratio_col in df.columns:
                 df[pvoix_ratio_col] = (
@@ -85,15 +89,23 @@ def enrich_election_data(file_path, election_year):
                     .fillna(0)
                     .astype(float)
                 )
-                df[f"pvoixT2_{famille}ratio"] = df[pvoix_ratio_col]
+                df[pvote_ratio_col] = df[pvoix_ratio_col]
+
+        # Suppression des anciennes colonnes `voixT2_x` et `pvoixT2_x`
+        old_columns = [
+            col
+            for col in df.columns
+            if col.startswith("voixT2") or col.startswith("pvoixT2")
+        ]
+        df.drop(columns=old_columns, inplace=True, errors="ignore")
 
         # Vérification de la cohérence des totaux
         df["voteT2_total"] = (
-            df["voixT2_ED"]
-            + df["voixT2_D"]
-            + df["voixT2_CD"]
-            + df["voixT2_C"]
-            + df["voixT2_G"]
+            df["voteT2_ED"]
+            + df["voteT2_D"]
+            + df["voteT2_CD"]
+            + df["voteT2_C"]
+            + df["voteT2_G"]
         )
         ecart = abs(df["voteT2_total"].sum() - df["exprimesT2"].sum())
 
