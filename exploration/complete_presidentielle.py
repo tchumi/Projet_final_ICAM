@@ -49,37 +49,43 @@ def enrich_election_data(file_path, election_year):
             print(f"⚠️ Aucun second tour détecté dans {file_path}. Ignoré.")
             return
 
-        df["exprimesT2"] = pd.to_numeric(df["exprimesT2"], errors="coerce").fillna(0)
+        df["exprimesT2"] = (
+            pd.to_numeric(df["exprimesT2"], errors="coerce").fillna(0).astype(int)
+        )
 
-        # Initialisation des nouvelles colonnes
+        # Initialisation des nouvelles colonnes avec des valeurs par défaut
         for famille in ["ED", "D", "CD", "C", "G"]:
             df[f"voixT2_{famille}"] = 0
-            df[f"pvoixT2_{famille}"] = 0
-            df[f"pvoixT2_{famille}ratio"] = 0
+            df[f"pvoixT2_{famille}"] = 0.0  # Force en float
+            df[f"pvoixT2_{famille}ratio"] = 0.0  # Force en float
 
         # Attribution des votes aux familles politiques, ligne par ligne
-        for index, row in df.iterrows():
-            for candidat, famille in familles_politique_t2.get(
-                election_year, {}
-            ).items():
-                voix_col = f"voixT2{candidat.upper()}"
-                pvoix_col = f"pvoixT2{candidat.upper()}"
-                pvoix_ratio_col = f"pvoixT2{candidat.upper()}ratio"
+        for candidat, famille in familles_politique_t2.get(election_year, {}).items():
+            voix_col = f"voixT2{candidat.upper()}"
+            pvoix_col = f"pvoixT2{candidat.upper()}"
+            pvoix_ratio_col = f"pvoixT2{candidat.upper()}ratio"
 
-                if voix_col in row:
-                    df.at[index, f"voixT2_{famille}"] = pd.to_numeric(
-                        row[voix_col], errors="coerce"
-                    )
+            if voix_col in df.columns:
+                df[voix_col] = (
+                    pd.to_numeric(df[voix_col], errors="coerce").fillna(0).astype(int)
+                )
+                df[f"voixT2_{famille}"] = df[voix_col]
 
-                if pvoix_col in row:
-                    df.at[index, f"pvoixT2_{famille}"] = pd.to_numeric(
-                        row[pvoix_col], errors="coerce"
-                    )
+            if pvoix_col in df.columns:
+                df[pvoix_col] = (
+                    pd.to_numeric(df[pvoix_col], errors="coerce")
+                    .fillna(0)
+                    .astype(float)
+                )
+                df[f"pvoixT2_{famille}"] = df[pvoix_col]
 
-                if pvoix_ratio_col in row:
-                    df.at[index, f"pvoixT2_{famille}ratio"] = pd.to_numeric(
-                        row[pvoix_ratio_col], errors="coerce"
-                    )
+            if pvoix_ratio_col in df.columns:
+                df[pvoix_ratio_col] = (
+                    pd.to_numeric(df[pvoix_ratio_col], errors="coerce")
+                    .fillna(0)
+                    .astype(float)
+                )
+                df[f"pvoixT2_{famille}ratio"] = df[pvoix_ratio_col]
 
         # Vérification de la cohérence des totaux
         df["voteT2_total"] = (
