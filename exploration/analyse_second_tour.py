@@ -1,8 +1,26 @@
+"""
+Ce script analyse les résultats du second tour des élections présidentielles françaises à partir de fichiers CSV.
+Fonctionnalités :
+- Détection des fichiers CSV contenant les résultats électoraux.
+- Extraction et agrégation des résultats du second tour par famille politique.
+- Vérification de la cohérence des totaux de votes.
+- Génération d'une synthèse des résultats pour chaque élection analysée.
+Variables :
+- base_dir : Chemin du dossier contenant les données électorales.
+- synthese : Liste pour stocker la synthèse des résultats.
+- familles_politique_t2 : Dictionnaire des regroupements politiques pour le 2nd tour.
+Fonctions :
+- detect_elections(base_dir) : Détecte les fichiers CSV des élections dans le répertoire spécifié.
+- extract_second_tour_results(file_path, election_year) : Extrait et analyse les résultats du second tour pour une année électorale donnée.
+Le script parcourt les fichiers électoraux détectés, extrait les résultats du second tour, et génère une synthèse enregistrée dans un fichier texte.
+
+"""
 import os
 import pandas as pd
 
 # Chemin du dossier contenant les données électorales
-base_dir = "D:/Projet_final_data/Piketty_data"
+#base_dir = "D:/Projet_final_data/Piketty_data"
+base_dir = "C:/Users/Admin.local/Documents/Projet_final_data/Piketty_data"
 
 # Liste pour stocker la synthèse
 synthese = []

@@ -1,3 +1,22 @@
+"""
+Ce script charge et fusionne les fichiers de données d'élections présidentielles enrichies pour créer un dataset temporel.
+Fonctionnalités principales :
+1. Définition des colonnes et types de données à conserver pour les fichiers d'élections.
+2. Chargement des fichiers CSV d'élections enrichies depuis un répertoire spécifié.
+3. Vérification des colonnes disponibles dans chaque fichier et enregistrement des colonnes manquantes dans un fichier de diagnostic.
+4. Filtrage des colonnes existantes et ajout de l'année de l'élection à chaque dataset.
+5. Fusion de tous les datasets d'élections en un seul dataset temporel.
+6. Enregistrement du dataset fusionné dans un fichier CSV final.
+Variables :
+- DATA_DIR : Répertoire contenant les fichiers de données d'élections enrichies.
+- COLUMNS : Liste des colonnes à conserver pour les fichiers d'élections.
+- DTYPES : Dictionnaire des types de données pour les colonnes à conserver.
+- df_elections : Liste des DataFrames chargés pour chaque fichier d'élection.
+Sortie :
+- Un fichier CSV contenant les données fusionnées de toutes les élections présidentielles, enregistré à l'emplacement spécifié.
+
+"""
+
 import pandas as pd
 import os
 
@@ -29,7 +48,8 @@ def load_election_dataset(file_path, columns, dtypes, year, sep=","):
 
 
 # 📍 Définition des fichiers enrichis
-DATA_DIR = "D:/Projet_final_data/Piketty_data/enriched_data"
+#DATA_DIR = "D:/Projet_final_data/Piketty_data/enriched_data"
+DATA_DIR = "C:/Users/Admin.local/Documents/Projet_final_data/Piketty_data/enriched_data"
 
 # 📍 Colonnes à garder pour **le 1er et 2nd tour**
 COLUMNS = [
@@ -124,7 +144,7 @@ for file_name in os.listdir(DATA_DIR):
 df_elections = pd.concat(df_elections, ignore_index=True)
 
 # 📌 Enregistrement du dataset final
-output_path = "D:/Projet_final_data/Piketty_data/elections_fusionnees.csv"
+output_path = "C:/Users/Admin.local/Documents/Projet_final_data/Piketty_data/elections_fusionnees.csv"
 df_elections.to_csv(output_path, index=False)
 
 print(f"✅ Données des élections fusionnées enregistrées sous {output_path}")

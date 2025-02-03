@@ -1,0 +1,7 @@
+📌 Rapport de la fusion des communes
+===================================
+
+⚠️ Nombre total de communes sans nom après fusion : 0
+
+🗑️ Nombre de lignes supprimées (code commune '.' ou vide) : 1
+

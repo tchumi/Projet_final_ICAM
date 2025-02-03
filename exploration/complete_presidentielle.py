@@ -1,8 +1,32 @@
+"""
+Ce script enrichit les fichiers CSV des résultats des élections présidentielles françaises avec des informations supplémentaires sur les votes du second tour par famille politique.
+Fonctionnalités principales :
+1. Détection des fichiers CSV des élections dans un répertoire donné.
+2. Enrichissement des fichiers CSV avec des colonnes supplémentaires pour les votes du second tour par famille politique.
+3. Vérification de la cohérence des totaux des votes.
+4. Sauvegarde des fichiers enrichis dans un répertoire de sortie.
+Variables globales :
+- base_dir : Chemin du répertoire contenant les données des élections.
+- output_dir : Chemin du répertoire où les fichiers enrichis seront sauvegardés.
+- familles_politique_t2 : Dictionnaire des regroupements politiques pour le second tour des élections.
+Fonctions :
+- detect_elections(base_dir) : Détecte les fichiers CSV des élections dans le répertoire de base.
+- enrich_election_data(file_path, election_year) : Enrichit un fichier CSV avec les votes du second tour par famille politique.
+Utilisation :
+1. Définir le chemin du répertoire de base contenant les données des élections.
+2. Exécuter le script pour détecter et enrichir les fichiers CSV des élections.
+3. Les fichiers enrichis seront sauvegardés dans le répertoire de sortie spécifié.
+Exemple d'exécution :
+
+"""
+
 import os
 import pandas as pd
 
 # Chemins des répertoires
-base_dir = "D:/Projet_final_data/Piketty_data"
+base_dir = "C:/Users/Admin.local/Documents/Projet_final_data/Piketty_data"
+#base_dir = "D:/Projet_final_data/Piketty_data"
+
 output_dir = os.path.join(base_dir, "enriched_data")
 os.makedirs(output_dir, exist_ok=True)
 

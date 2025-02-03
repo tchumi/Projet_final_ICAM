@@ -1,3 +1,21 @@
+"""
+Ce script analyse les fichiers électoraux des élections présidentielles pour vérifier certaines hypothèses concernant les votes du premier et du second tour.
+Fonctions:
+    detect_elections(base_dir):
+        Détecte les fichiers CSV des élections présidentielles dans le répertoire spécifié.
+    analyze_election(file_path, election_year):
+        Analyse un fichier électoral pour vérifier les hypothèses sur les votes du premier et du second tour.
+Variables:
+    base_dir (str): Chemin du dossier contenant les données électorales.
+    synthese (list): Liste pour stocker la synthèse des analyses.
+    election_files (dict): Dictionnaire contenant les chemins des fichiers électoraux détectés.
+Étapes principales:
+    1. Détection des fichiers électoraux disponibles.
+    2. Analyse des fichiers électoraux pour vérifier les hypothèses.
+    3. Stockage des résultats de l'analyse dans un fichier de synthèse.
+
+"""
+
 import os
 import pandas as pd
 
