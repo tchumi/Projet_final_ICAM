@@ -32,7 +32,7 @@ def load_dataset(file_path, columns, dtypes, sep=","):
 
 # 📍 Définition des fichiers et variables
 # DATA_DIR = "C:/Users/Admin.local/Documents/Projet_final_data/Piketty_data"
-DATA_DIR = "C:/Users/michel/Documents/ICAM/Projet_final_data/Piketty_data"
+DATA_DIR = "D:/Projet_final_data/Piketty_data"
 
 
 DATASETS = {
