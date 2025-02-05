@@ -1,3 +1,28 @@
+"""
+Ce script analyse l'évolution des clusters politiques en utilisant des moyennes pondérées des résultats électoraux.
+Modules importés:
+- pandas: pour la manipulation des données
+- os: pour la gestion des chemins de fichiers
+- scipy.spatial.distance.euclidean: pour calculer la distance euclidienne entre les clusters
+- itertools.product: pour générer des paires de clusters à comparer
+Variables globales:
+- DATA_DIR: chemin du répertoire contenant les fichiers de données
+- CLUSTER_FILE: chemin du fichier contenant les données des clusters
+- ELECTIONS_FILE: chemin du fichier contenant les données électorales
+- REPORT_FILE: chemin du fichier où le rapport sera sauvegardé
+- variables_votes: liste des colonnes électorales à analyser
+- ponderation: colonne utilisée pour pondérer les moyennes
+Fonctions:
+- suivre_clusters_par_profil_pondere(df): analyse l'évolution des clusters en utilisant des moyennes pondérées des résultats électoraux et génère un rapport.
+Étapes principales:
+1. Chargement des fichiers de données des clusters et des votes.
+2. Sélection des colonnes électorales disponibles dans les données.
+3. Fusion des données des clusters avec les données de vote.
+4. Analyse de l'évolution des clusters par année en utilisant des moyennes pondérées.
+5. Génération et sauvegarde du rapport final.
+Le rapport final est sauvegardé dans un fichier texte spécifié par REPORT_FILE.
+
+"""
 import pandas as pd
 import os
 from scipy.spatial.distance import euclidean
