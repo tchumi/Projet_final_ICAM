@@ -1,0 +1,197 @@
+🗳️ **Élection 1965**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1965_csv\pres1965comm.csv
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Détail des votes par famille :
+    - voteG : 280,651 voix
+    - voteCG : 7,711,673 voix
+    - voteC : 3,791,933 voix
+    - voteCD : 10,550,933 voix
+    - voteD : 1,668,935 voix
+    - voteTG : 9,888,290 voix
+    - voteTD : 14,115,834 voix
+    - voteGCG : 7,992,324 voix
+    - voteDCD : 12,219,868 voix
+🔹 Total votes regroupement : 68,220,442.0 (≃ 284.20% des exprimés, 239.75% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 44,216,317.0 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1969**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1969_csv\pres1969comm.csv
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Détail des votes par famille :
+    - voteG : 5,803,650 voix
+    - voteCG : 1,123,750 voix
+    - voteC : 284,403 voix
+    - voteCD : 5,183,255 voix
+    - voteD : 9,721,925 voix
+    - voteTG : 7,069,602 voix
+    - voteTD : 15,047,382 voix
+    - voteGCG : 6,927,400 voix
+    - voteDCD : 14,905,180 voix
+🔹 Total votes regroupement : 66,066,546.0 (≃ 298.71% des exprimés, 230.50% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 43,949,563.0 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1974**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1974_csv\pres1974comm.csv
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Détail des votes par famille :
+    - voteG : 1,061,052 voix
+    - voteCG : 11,209,118 voix
+    - voteC : 189,788 voix
+    - voteCD : 12,931,150 voix
+    - voteD : 256,229 voix
+    - voteTG : 12,365,064 voix
+    - voteTD : 13,282,273 voix
+    - voteGCG : 12,270,170 voix
+    - voteDCD : 13,187,379 voix
+🔹 Total votes regroupement : 76,752,223.02113152 (≃ 299.26% des exprimés, 251.95% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 51,104,886.02112961 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1981**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1981_csv\pres1981comm.csv
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Détail des votes par famille :
+    - voteG : 5,466,973 voix
+    - voteCG : 8,062,229 voix
+    - voteC : 217,021 voix
+    - voteCD : 7,953,780 voix
+    - voteD : 6,053,815 voix
+    - voteTG : 13,637,712 voix
+    - voteTD : 14,116,106 voix
+    - voteGCG : 13,529,202 voix
+    - voteDCD : 14,007,595 voix
+🔹 Total votes regroupement : 83,044,433.05163126 (≃ 299.22% des exprimés, 240.48% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 55,290,615.05163126 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1988**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1988_csv\pres1988comm.csv
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Détail des votes par famille :
+    - voteG : 3,388,076 voix
+    - voteCG : 9,672,916 voix
+    - voteC : 214,080 voix
+    - voteCD : 10,345,441 voix
+    - voteD : 4,288,598 voix
+    - voteTG : 13,168,032 voix
+    - voteTD : 14,741,078 voix
+    - voteGCG : 13,060,992 voix
+    - voteDCD : 14,634,039 voix
+🔹 Total votes regroupement : 83,513,250.22987132 (≃ 299.23% des exprimés, 240.69% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 55,604,140.22987132 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1995**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1995_csv\pres1995comm.csv
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Détail des votes par famille :
+    - voteG : 4,297,361 voix
+    - voteCG : 8,175,484 voix
+    - voteC : 16,215 voix
+    - voteCD : 12,048,786 voix
+    - voteD : 6,095,262 voix
+    - voteTG : 12,480,952 voix
+    - voteTD : 18,152,155 voix
+    - voteGCG : 12,472,845 voix
+    - voteDCD : 18,144,048 voix
+🔹 Total votes regroupement : 91,883,106.06537274 (≃ 299.95% des exprimés, 231.33% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 61,249,999.065372735 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2002**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2002_csv\pres2002comm.csv
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Détail des votes par famille :
+    - voteG : 4,318,297 voix
+    - voteCG : 8,577,819 voix
+    - voteC : 2,337,004 voix
+    - voteCD : 7,404,538 voix
+    - voteD : 5,859,354 voix
+    - voteTG : 14,064,619 voix
+    - voteTD : 14,432,395 voix
+    - voteGCG : 12,896,117 voix
+    - voteDCD : 13,263,893 voix
+🔹 Total votes regroupement : 83,154,037.60156618 (≃ 291.80% des exprimés, 205.26% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 54,657,023.60156332 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2007**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2007_csv\pres2007comm.csv
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Détail des votes par famille :
+    - voteG : 3,362,554 voix
+    - voteCG : 9,997,702 voix
+    - voteC : 83,788 voix
+    - voteCD : 18,304,492 voix
+    - voteD : 4,741,291 voix
+    - voteTG : 13,402,150 voix
+    - voteTD : 23,087,676 voix
+    - voteGCG : 13,360,256 voix
+    - voteDCD : 23,045,783 voix
+🔹 Total votes regroupement : 109,385,690.18035258 (≃ 299.77% des exprimés, 252.54% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 72,895,864.18035258 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2012**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2012_csv\pres2012comm.csv
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Détail des votes par famille :
+    - voteG : 4,631,864 voix
+    - voteCG : 10,910,259 voix
+    - voteC : 3,284,344 voix
+    - voteCD : 9,680,437 voix
+    - voteD : 7,040,429 voix
+    - voteTG : 17,184,294 voix
+    - voteTD : 18,363,037 voix
+    - voteGCG : 15,542,122 voix
+    - voteDCD : 16,720,865 voix
+🔹 Total votes regroupement : 103,357,649.35475078 (≃ 290.76% des exprimés, 232.18% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 67,810,318.3547503 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2017**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2017_csv\pres2017comm.csv
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Détail des votes par famille :
+    - voteG : 7,871,711 voix
+    - voteCG : 2,440,110 voix
+    - voteC : 8,888,337 voix
+    - voteCD : 7,411,676 voix
+    - voteD : 9,755,221 voix
+    - voteTG : 14,755,990 voix
+    - voteTD : 21,611,066 voix
+    - voteGCG : 10,311,821 voix
+    - voteDCD : 17,166,897 voix
+🔹 Total votes regroupement : 100,212,830.90227127 (≃ 275.56% des exprimés, 215.32% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 63,845,774.90271139 voix.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2022**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2022_csv\pres2022comm.csv
+🔹 Regroupement politique (1er tour) : voteG, voteCG, voteC, voteCD, voteD, voteTG, voteTD, voteGCG, voteDCD
+🔹 Détail des votes par famille :
+    - voteG : 9,276,960 voix
+    - voteCG : 2,524,238 voix
+    - voteC : 10,137,132 voix
+    - voteCD : 1,939,756 voix
+    - voteD : 11,572,955 voix
+    - voteTG : 16,869,764 voix
+    - voteTD : 18,581,277 voix
+    - voteGCG : 11,801,198 voix
+    - voteDCD : 13,512,711 voix
+🔹 Total votes regroupement : 96,215,991.03866659 (≃ 271.41% des exprimés, 202.40% des inscrits)
+⚠️ **Anomalie :** L'écart entre total des votes exprimés et la somme des regroupements est de 60,764,950.03697477 voix.
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,88 @@
+✅ Nombre total de lignes : 361497
+✅ Nombre total de colonnes : 37
+
+📌 Vérification des colonnes :
+✅ Toutes les colonnes attendues sont présentes.
+
+📌 Vérification des valeurs manquantes :
+⚠️ Valeurs manquantes détectées :
+exprimes        366
+voteG           366
+voteCG          366
+voteC           366
+voteCD          366
+voteD           366
+voteTG          366
+voteTD          366
+voteGCG         366
+voteDCD         366
+pvoteG          405
+pvoteCG         405
+pvoteC          405
+pvoteCD         405
+pvoteD          405
+pvoteTG         405
+pvoteTD         405
+pvoteTGratio    405
+pvoteTDratio    405
+
+📌 Vérification des années disponibles :
+année
+1965    36508
+1969    36470
+1974    36105
+1981    35899
+1995    36576
+2002    36579
+2007    36582
+2012    36585
+2017    35326
+2022    34867
+
+📌 Vérification du nombre unique de communes :
+✅ Nombre unique de communes : 36652
+
+📌 Vérification de l'intégrité des votes du 2nd tour :
+✅ La somme des votes du 2nd tour correspond exactement aux votes exprimés.
+
+📌 Statistiques descriptives des votes et pourcentages :
+                        mean          std     min           max
+exprimes          837.667323  5662.536964     0.0  1.076559e+06
+voteG             128.405130  1087.215583     0.0  3.456898e+05
+voteCG            195.863501  1610.698818     0.0  3.875844e+05
+voteC              80.940060  1088.882637     0.0  3.763984e+05
+voteCD            258.656285  2036.796800     0.0  5.915994e+05
+voteD             173.802348   956.510457     0.0  1.565358e+05
+voteTG            364.738660  2749.086949     0.0  6.389105e+05
+voteTD            472.928663  3016.497744     0.0  6.522015e+05
+voteGCG           324.268630  2379.511779     0.0  5.075028e+05
+voteDCD           432.458633  2721.972425     0.0  6.520338e+05
+pvoteG              0.137590     0.095671     0.0  1.000000e+00
+pvoteCG             0.218669     0.146438     0.0  1.000000e+00
+pvoteC              0.086466     0.103574     0.0  1.000000e+00
+pvoteCD             0.327617     0.168707     0.0  1.000000e+00
+pvoteD              0.229659     0.154120     0.0  1.000000e+00
+pvoteTG             0.399492     0.131218     0.0  1.000000e+00
+pvoteTD             0.600508     0.131218     0.0  1.000000e+00
+pvoteTGratio        0.921822     0.283816     0.0  3.128463e+00
+pvoteTDratio        1.058597     0.209990     0.0  1.971575e+00
+exprimesT2        807.954522  5489.119587     0.0  1.020002e+06
+voteT2_ED          80.392485   657.062577     0.0  1.414050e+05
+voteT2_D          278.054739  2609.755227     0.0  7.847410e+05
+voteT2_CD          75.263875   923.278065     0.0  1.735490e+05
+voteT2_C          132.585311  2355.238297     0.0  8.492570e+05
+voteT2_G          241.658113  2138.216299     0.0  5.604610e+05
+pvoteT2_ED          0.109447     0.191627     0.0  1.000000e+00
+pvoteT2_D           0.358243     0.313669     0.0  1.000000e+00
+pvoteT2_CD          0.102680     0.215532     0.0  1.000000e+00
+pvoteT2_C           0.149637     0.242615     0.0  1.000000e+00
+pvoteT2_G           0.279412     0.250344     0.0  1.000000e+00
+pvoteT2_EDratio     0.347194     0.570230     0.0  4.282904e+00
+pvoteT2_Dratio      0.619305     0.530824     0.0  2.054173e+00
+pvoteT2_CDratio     0.208914     0.438271     0.0  2.090111e+00
+pvoteT2_Cratio      0.274367     0.446534     0.0  2.358201e+00
+pvoteT2_Gratio      0.573181     0.513207     0.0  2.201342e+00
+année            1994.256735    19.708831  1965.0  2.022000e+03
+total_voteT2      807.954522  5489.119587     0.0  1.020002e+06
+
+✅ Vérification terminée.

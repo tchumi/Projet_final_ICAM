@@ -1,0 +1,142 @@
+🗳️ **Élection 1965**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1965_csv\pres1965comm.csv
+🔹 Total des votes exprimés au 2nd tour : 23,538,329 voix
+🔹 Répartition des votes par famille politique :
+    - ED : 0 voix
+    - D : 12,845,611 voix
+    - CD : 0 voix
+    - C : 0 voix
+    - G : 10,692,718 voix
+✅ Vérification : La somme des votes par famille correspond bien au total des exprimés.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1969**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1969_csv\pres1969comm.csv
+🔹 Total des votes exprimés au 2nd tour : 18,671,321 voix
+🔹 Répartition des votes par famille politique :
+    - ED : 0 voix
+    - D : 10,753,710 voix
+    - CD : 0 voix
+    - C : 7,917,611 voix
+    - G : 0 voix
+✅ Vérification : La somme des votes par famille correspond bien au total des exprimés.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1974**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1974_csv\pres1974comm.csv
+🔹 Total des votes exprimés au 2nd tour : 26,360,216 voix
+🔹 Répartition des votes par famille politique :
+    - ED : 0 voix
+    - D : 0 voix
+    - CD : 13,297,789 voix
+    - C : 0 voix
+    - G : 13,062,427 voix
+✅ Vérification : La somme des votes par famille correspond bien au total des exprimés.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1981**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1981_csv\pres1981comm.csv
+🔹 Total des votes exprimés au 2nd tour : 29,073,192 voix
+🔹 Répartition des votes par famille politique :
+    - ED : 0 voix
+    - D : 0 voix
+    - CD : 13,909,876 voix
+    - C : 0 voix
+    - G : 15,163,316 voix
+✅ Vérification : La somme des votes par famille correspond bien au total des exprimés.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1988**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1988_csv\pres1988comm.csv
+🔹 Total des votes exprimés au 2nd tour : 28,765,335 voix
+🔹 Répartition des votes par famille politique :
+    - ED : 0 voix
+    - D : 13,248,467 voix
+    - CD : 0 voix
+    - C : 0 voix
+    - G : 15,516,868 voix
+✅ Vérification : La somme des votes par famille correspond bien au total des exprimés.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 1995**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres1995_csv\pres1995comm.csv
+🔹 Total des votes exprimés au 2nd tour : 30,040,500 voix
+🔹 Répartition des votes par famille politique :
+    - ED : 0 voix
+    - D : 15,849,144 voix
+    - CD : 0 voix
+    - C : 0 voix
+    - G : 14,191,356 voix
+✅ Vérification : La somme des votes par famille correspond bien au total des exprimés.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2002**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2002_csv\pres2002comm.csv
+🔹 Total des votes exprimés au 2nd tour : 31,057,363 voix
+🔹 Répartition des votes par famille politique :
+    - ED : 5,533,541 voix
+    - D : 25,523,822 voix
+    - CD : 0 voix
+    - C : 0 voix
+    - G : 0 voix
+✅ Vérification : La somme des votes par famille correspond bien au total des exprimés.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2007**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2007_csv\pres2007comm.csv
+🔹 Total des votes exprimés au 2nd tour : 35,405,321 voix
+🔹 Répartition des votes par famille politique :
+    - ED : 0 voix
+    - D : 18,846,685 voix
+    - CD : 0 voix
+    - C : 0 voix
+    - G : 16,558,636 voix
+✅ Vérification : La somme des votes par famille correspond bien au total des exprimés.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2012**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2012_csv\pres2012comm.csv
+🔹 Total des votes exprimés au 2nd tour : 34,387,212 voix
+🔹 Répartition des votes par famille politique :
+    - ED : 0 voix
+    - D : 16,696,982 voix
+    - CD : 0 voix
+    - C : 0 voix
+    - G : 17,690,230 voix
+✅ Vérification : La somme des votes par famille correspond bien au total des exprimés.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2017**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2017_csv\pres2017comm.csv
+🔹 Total des votes exprimés au 2nd tour : 31,407,729 voix
+🔹 Répartition des votes par famille politique :
+    - ED : 10,506,388 voix
+    - D : 0 voix
+    - CD : 0 voix
+    - C : 20,901,341 voix
+    - G : 0 voix
+✅ Vérification : La somme des votes par famille correspond bien au total des exprimés.
+
+--------------------------------------------------------------------------------
+
+🗳️ **Élection 2022**
+📂 Fichier : D:/Projet_final_data/Piketty_data\pres2022_csv\pres2022comm.csv
+🔹 Total des votes exprimés au 2nd tour : 32,131,953 voix
+🔹 Répartition des votes par famille politique :
+    - ED : 13,021,713 voix
+    - D : 0 voix
+    - CD : 0 voix
+    - C : 19,110,240 voix
+    - G : 0 voix
+✅ Vérification : La somme des votes par famille correspond bien au total des exprimés.
+
+--------------------------------------------------------------------------------

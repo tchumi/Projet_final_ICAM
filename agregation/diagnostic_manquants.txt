@@ -1,0 +1,11 @@
+⚠️ Manque dans D:/Projet_final_data/Piketty_data/enriched_data\pres1965_enriched.csv : pvoixCG, pvoixC, pvoixCD, pvoixTGratio, pvoixD, pvoixTDratio, pvoixG
+⚠️ Manque dans D:/Projet_final_data/Piketty_data/enriched_data\pres1969_enriched.csv : pvoixCG, pvoixC, pvoixCD, pvoixTGratio, pvoixD, pvoixTDratio, pvoixG
+⚠️ Manque dans D:/Projet_final_data/Piketty_data/enriched_data\pres1974_enriched.csv : pvoixCG, pvoixC, pvoixCD, pvoixTGratio, pvoixD, pvoixTDratio, pvoixG
+⚠️ Manque dans D:/Projet_final_data/Piketty_data/enriched_data\pres1981_enriched.csv : pvoixCG, pvoixC, pvoixCD, pvoixTGratio, pvoixD, pvoixTDratio, pvoixG
+⚠️ Manque dans D:/Projet_final_data/Piketty_data/enriched_data\pres1988_enriched.csv : pvoixCG, pvoixC, pvoixCD, pvoixTGratio, pvoixD, pvoixTDratio, pvoixG
+⚠️ Manque dans D:/Projet_final_data/Piketty_data/enriched_data\pres1995_enriched.csv : pvoixCG, pvoixC, pvoixCD, pvoixTGratio, pvoixD, pvoixTDratio, pvoixG
+⚠️ Manque dans D:/Projet_final_data/Piketty_data/enriched_data\pres2002_enriched.csv : pvoixCG, pvoixC, pvoixCD, pvoixTGratio, pvoixD, pvoixTDratio, pvoixG
+⚠️ Manque dans D:/Projet_final_data/Piketty_data/enriched_data\pres2007_enriched.csv : pvoixCG, pvoixC, pvoixCD, pvoixTGratio, pvoixD, pvoixTDratio, pvoixG
+⚠️ Manque dans D:/Projet_final_data/Piketty_data/enriched_data\pres2012_enriched.csv : pvoixCG, pvoixC, pvoixCD, pvoixTGratio, pvoixD, pvoixTDratio, pvoixG
+⚠️ Manque dans D:/Projet_final_data/Piketty_data/enriched_data\pres2017_enriched.csv : pvoixCG, pvoixC, pvoixCD, pvoixTGratio, pvoixD, pvoixTDratio, pvoixG
+⚠️ Manque dans D:/Projet_final_data/Piketty_data/enriched_data\pres2022_enriched.csv : pvoixCG, pvoixC, pvoixCD, pvoixTGratio, pvoixD, pvoixTDratio, pvoixG

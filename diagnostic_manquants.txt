@@ -1,0 +1,6 @@
+⚠️ Manque dans C:/Users/Admin.local/Documents/Projet_final_data/Piketty_data\Capital_immobilier_csv/capitalimmobiliercommunes.csv : prixm2_2022
+⚠️ Manque dans C:/Users/Admin.local/Documents/Projet_final_data/Piketty_data\Capital_immobilier_csv/isfcommunes.csv : pisf2022
+
+🔍 Résumé final :
+✅ Fusion complète. Nombre final de lignes : 36661
+🔍 Nombre de communes uniques : 36661

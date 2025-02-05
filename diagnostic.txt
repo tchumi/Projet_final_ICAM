@@ -1,0 +1,58 @@
+📌 DIAGNOSTIC DES DONNÉES
+==================================================
+
+🔍 Colonnes avec valeurs manquantes :
+capitalratio2022    2009
+capitalimmo2022     2009
+pibtot2022          1940
+revmoy2022          1915
+revmoyfoy2022       1914
+petranger2022       1854
+pvoixT2MLEPEN       1825
+pvoixT2MACRON       1825
+pabs                1796
+pblancsnuls         1796
+voteGCG             1796
+voteDCD             1796
+voteC               1796
+voteCG              1796
+voteD               1796
+voteCD              1796
+voteG               1796
+exprimes            1796
+voteTG              1796
+voteTD              1796
+pabsT2              1796
+pblancsnulsT2       1796
+pouvr2022           1596
+pchom2022           1596
+pcadr2022           1596
+pbac2022            1439
+psup2022            1439
+prop0142022         1431
+prop15392022        1431
+propf2022           1431
+prop60p2022         1431
+prop40592022        1431
+age2022             1431
+ppropri2022          116
+pop2022               29
+pibratio2022          26
+
+==================================================
+
+📊 STATISTIQUES DES COLONNES CLÉS (Valeurs aberrantes)
+
+📊 pop2022 :
+count     36632.000000
+mean       1835.416794
+std        9953.721284
+min           0.000000
+25%         187.000000
+50%         434.000000
+75%        1118.000000
+max      875791.000000
+
+==================================================
+
+🏙️ Nombre total de communes présentes : 36661
