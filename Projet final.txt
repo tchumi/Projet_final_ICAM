@@ -85,7 +85,8 @@ open data
 
 -------------------
 
-Election
+Projet Elections - 
+
 
 - analyse par bureau de vote
 - data visualisation
@@ -105,7 +106,35 @@ common crawl : scan des pages web depuis 2007
 
 
 
+
+Problématiques
+
+- Réaliser une analyse temporelle et spatiale avancée pour comprendre l’évolution des comportements électoraux dans le temps et dans l’espace. Capturer les dynamiques locales du vote en intégrant les dimensions géographiques (où ?) et historiques (quand ?).
+- Réaliser une analyse prédictive et simulation électorale 
+	- jouer sur l'abstention, fermeture d'usine, recul service public, éducation, propagande...
+- Prévision des taux d’abstention et des votes blancs/nuls
+- Expliquer des résultats via modèles interprétables. Construire des modèles explicables pour mieux comprendre les dynamiques locales derrière un vote (par exemple, quelles variables influencent le plus les votes pour un candidat ?).
+- Etudier les effets de bord géographiques et les zones de transition (prolongement de l'analyse temporelle et spatiale avancée)
+- Modéliser l’impact d’un changement dans les règles électorales
+
+
+
+Dataset enrichissement
+- données socio économiques (mondialisation et désindustrialisation)
+- discours politique
+- évènement politique
+- sentiment
+
+
+Dataset sources
+- open data university
+- site Piketty
+- Insee
+
+
 --------------------------------------------------------------
+Brain storming
+
 
 corrélation
 prédiction

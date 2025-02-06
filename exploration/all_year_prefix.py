@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # 📍 Définition des répertoires et fichiers
-DATA_DIR = "C:/Users/michel/Documents/ICAM/Projet_final_data/Piketty_data"
+DATA_DIR = "C:/Users/Admin.local/Documents/Projet_final_data/Piketty_data"
 OUTPUT_FILE = "all_year_prefix.txt"
 
 DATASETS = {
