@@ -1,3 +1,30 @@
+"""
+Ce script analyse les poids relatifs des clusters de communes au fil des élections en France.
+Fonctionnalités :
+1. Chargement des données de clusters et des résultats des élections.
+2. Fusion des données pour récupérer les votes exprimés par commune et par année.
+3. Calcul des poids relatifs des clusters en termes de nombre de communes et de votes exprimés.
+4. Sauvegarde des résultats dans un fichier CSV.
+5. Visualisation des tendances des poids relatifs des clusters au fil des années.
+Bibliothèques utilisées :
+- pandas : pour la manipulation des données.
+- os : pour la gestion des chemins de fichiers.
+- matplotlib.pyplot : pour la visualisation des données.
+- seaborn : pour la création de graphiques.
+Variables :
+- DATA_DIR : chemin du répertoire contenant les fichiers de données.
+- CLUSTER_FILE : chemin du fichier CSV contenant les données de clusters.
+- ELECTIONS_FILE : chemin du fichier CSV contenant les résultats des élections.
+- df_clusters : DataFrame contenant les données de clusters.
+- df_votes : DataFrame contenant les résultats des élections.
+- df_merged : DataFrame fusionnée contenant les données de clusters et les votes exprimés.
+- df_weights : DataFrame contenant les poids relatifs des clusters.
+Sortie :
+- Un fichier CSV contenant les poids relatifs des clusters.
+- Des graphiques montrant l'évolution des poids relatifs des clusters en termes de pourcentage de communes et de votes exprimés.
+
+"""
+
 import pandas as pd
 import os
 import matplotlib.pyplot as plt

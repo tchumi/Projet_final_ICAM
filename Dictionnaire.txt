@@ -1,0 +1,49 @@
+Revenus
+
+    revmoy : Revenu moyen par habitant
+    revmoyfoy : Revenu moyen par foyer
+    revratio : Ratio du revenu moyen par habitant par rapport à la moyenne nationale
+
+Catégories socio-professionnelles (CSP)
+
+    pchom : Proportion de chômeurs
+    pouvr : Proportion d'ouvriers
+    pcadr : Proportion de cadres
+
+Diplômes
+
+    pbac : Proportion de la population ayant obtenu le baccalauréat
+    psup : Proportion de la population ayant un diplôme de l’enseignement supérieur
+
+Population étrangère
+
+    petranger : Proportion de la population étrangère
+
+Propriétaires
+
+    ppropri : Proportion de propriétaires
+
+Âge de la population
+
+    pop_ : Population totale
+    propf_ : Proportion de femmes
+    prop014_ : Proportion de la population âgée de 0 à 14 ans
+    prop1539_ : Proportion de la population âgée de 15 à 39 ans
+    prop4059_ : Proportion de la population âgée de 40 à 59 ans
+    prop60p_ : Proportion de la population âgée de 60 ans et plus
+    age_ : Âge moyen de la population
+
+PIB
+
+    pibratio : Ratio du PIB par habitant par rapport à la moyenne nationale
+    pibtot : PIB total
+
+Capital immobilier
+
+    capitalratio : Ratio du capital immobilier par habitant
+    capitalimmo : Capital immobilier total
+    prixm2_ : Prix moyen du mètre carré (pas de données disponibles)
+
+Impôt sur la fortune (ISF)
+
+    pisf : Proportion de foyers assujettis à l'ISF (disponible uniquement pour 2017)

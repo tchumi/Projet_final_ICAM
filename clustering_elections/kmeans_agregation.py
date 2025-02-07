@@ -1,3 +1,38 @@
+"""
+Ce script effectue un clustering des résultats électoraux en utilisant l'algorithme K-Means.
+Fonctionnalités principales :
+- Chargement des données électorales à partir d'un fichier CSV.
+- Sélection et standardisation des variables électorales pour le 1er et le 2nd tour.
+- Détermination du nombre optimal de clusters à l'aide de la méthode du coude.
+- Application de l'algorithme K-Means pour chaque année d'élection.
+- Stockage des résultats des clusters et fusion avec les données originales.
+- Sauvegarde des résultats finaux dans un fichier CSV.
+Bibliothèques utilisées :
+- pandas : pour la manipulation des données.
+- os : pour la gestion des chemins de fichiers.
+- matplotlib.pyplot et seaborn : pour la visualisation des données.
+- sklearn.cluster et sklearn.preprocessing : pour le clustering et la standardisation des données.
+- yellowbrick.cluster : pour la visualisation du nombre optimal de clusters.
+Variables :
+- DATA_DIR : chemin du répertoire contenant les données.
+- INPUT_FILE : chemin du fichier CSV d'entrée contenant les données électorales.
+- OUTPUT_FILE : chemin du fichier CSV de sortie pour sauvegarder les résultats des clusters.
+- variables_1er_tour : liste des variables électorales pour le 1er tour.
+- variables_2nd_tour : liste des variables électorales pour le 2nd tour.
+- scaler : instance de StandardScaler pour la standardisation des données.
+- clusters_results : liste pour stocker les résultats des clusters pour chaque année.
+Étapes principales :
+1. Chargement des données électorales.
+2. Boucle sur chaque année d'élection pour effectuer le clustering.
+3. Standardisation des variables électorales.
+4. Détermination du nombre optimal de clusters pour le 1er et le 2nd tour.
+5. Application de l'algorithme K-Means et stockage des résultats.
+6. Fusion des résultats des clusters avec les données originales.
+7. Sauvegarde des résultats finaux dans un fichier CSV.
+
+"""
+
+
 import pandas as pd
 import os
 import matplotlib.pyplot as plt

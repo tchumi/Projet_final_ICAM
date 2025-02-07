@@ -1,3 +1,22 @@
+"""
+Ce script analyse plusieurs fichiers CSV contenant des données socio-économiques et génère un rapport détaillant les années disponibles pour chaque variable dans chaque fichier.
+Fonctionnalités :
+- Définition des répertoires et fichiers de données.
+- Initialisation d'un fichier de sortie pour enregistrer les résultats.
+- Parcours des datasets définis dans le dictionnaire `DATASETS`.
+- Vérification de l'existence de chaque fichier CSV.
+- Chargement des en-têtes des fichiers CSV pour extraire les années disponibles pour chaque variable.
+- Filtrage des années entre 1960 et 2023.
+- Écriture des résultats dans le fichier de sortie.
+Variables :
+- `DATA_DIR` : Répertoire contenant les fichiers de données.
+- `OUTPUT_FILE` : Nom du fichier de sortie où les résultats seront enregistrés.
+- `DATASETS` : Dictionnaire contenant les informations sur les fichiers CSV et les variables à analyser.
+Sortie :
+- Un fichier texte (`all_year_prefix.txt`) contenant la liste des années disponibles pour chaque variable dans chaque fichier CSV.
+
+"""
+
 import pandas as pd
 import os
 

@@ -1,3 +1,30 @@
+"""
+Ce script analyse plusieurs fichiers CSV contenant des données socio-économiques et produit deux fichiers de sortie :
+1. `all_year_prefix.txt` : Liste détaillée des années disponibles pour chaque variable entre 1960 et 2023.
+2. `all_year_counts.txt` : Nombre de valeurs non nulles par variable et par année.
+Fonctionnalités principales :
+- Définition des répertoires et fichiers de données.
+- Initialisation des fichiers de sortie avec des en-têtes descriptifs.
+- Parcours des différents jeux de données définis dans le dictionnaire `DATASETS`.
+- Vérification de l'existence de chaque fichier CSV.
+- Chargement des fichiers CSV et extraction des années disponibles pour chaque variable.
+- Filtrage des années entre 1960 et 2023.
+- Écriture des années disponibles et des comptages de valeurs non nulles dans les fichiers de sortie.
+Variables :
+- `DATA_DIR` : Répertoire contenant les fichiers de données.
+- `OUTPUT_YEARS` : Nom du fichier de sortie pour les années disponibles.
+- `OUTPUT_COUNTS` : Nom du fichier de sortie pour les comptages de valeurs non nulles.
+- `DATASETS` : Dictionnaire contenant les informations sur les différents jeux de données (fichiers et variables).
+Sorties :
+- `all_year_prefix.txt` : Contient la liste des années disponibles pour chaque variable.
+- `all_year_counts.txt` : Contient le nombre de valeurs non nulles pour chaque variable et chaque année.
+Exécution :
+- Le script vérifie l'existence de chaque fichier CSV.
+- Charge les données et extrait les années disponibles pour chaque variable.
+- Filtre les années entre 1960 et 2023.
+- Écrit les résultats dans les fichiers de sortie.
+
+"""
 import pandas as pd
 import os
 
