@@ -6,22 +6,18 @@ from sklearn.metrics import mean_absolute_error
 data_path = "C:/Users/Admin.local/Documents/Projet_final_data/Piketty_data/elections_socio_fusionnes.csv"
 df = pd.read_csv(data_path, dtype={"codecommune": str, "année": int})
 
-# 📌 Ajout des votes du 1ᵉʳ tour dans les features du 2ᵉ tour
-features_2nd_tour = [
-    'exprimesT2', 
-    'revratio', 'pchom', 'pouvr', 'pcadr', 'pibratio',
-    # Ajout des résultats du 1er tour
-    'pvoteG', 'pvoteCG', 'pvoteC', 'pvoteCD', 'pvoteD', 'pvoteTG', 'pvoteTD',
-    'pvoteTGratio', 'pvoteTDratio'
-]
-target_columns = ['pvoteT2_ED', 'pvoteT2_D', 'pvoteT2_CD', 'pvoteT2_C', 'pvoteT2_G']
+# 📌 Sélection des features pour le premier tour (sans clusters ni votes)
+features_base = ['exprimes', 'revratio', 'pchom', 'pouvr', 'pcadr', 'pibratio']
+
+# 📌 Sélection des cibles pour le premier tour (votes à prédire)
+target_columns = ['pvoteG', 'pvoteCG', 'pvoteC', 'pvoteCD', 'pvoteD']
 
 # 📌 Split Chronologique pour l’Entraînement
 train = df[df["année"] <= 2012]
 test = df[df["année"] == 2017]
 validation = df[df["année"] == 2022]
 
-# 📌 Fonction pour entraîner et évaluer XGBoost pour le 2ᵉ tour
+# 📌 Fonction pour entraîner et évaluer XGBoost pour le premier tour
 def train_evaluate_xgboost(train, test, features):
     X_train, y_train = train[features], train[target_columns]
     X_test, y_test = test[features], test[target_columns]
@@ -37,15 +33,16 @@ def train_evaluate_xgboost(train, test, features):
     return model, mae
 
 # 📌 Entraînement et Évaluation
-print("🔍 Entraînement du modèle pour le 2ᵉ tour avec votes du 1ᵉʳ tour...")
-model_2nd_tour, mae_2nd_tour = train_evaluate_xgboost(train, test, features_2nd_tour)
+print("🔍 Entraînement du modèle pour le premier tour...")
+model_1st_tour, mae_1st_tour = train_evaluate_xgboost(train, test, features_base)
 
 # 📊 Affichage des résultats
-print(f"📉 MAE pour le 2ᵉ tour (Test 2017) : {mae_2nd_tour:.4f}")
+print(f"� MAE pour le premier tour (Test 2017) : {mae_1st_tour:.4f}")
 
 # ✅ Validation finale sur 2022
-X_validation, y_validation = validation[features_2nd_tour], validation[target_columns]
-y_pred_validation = model_2nd_tour.predict(X_validation)
+X_validation, y_validation = validation[features_base], validation[target_columns]
+y_pred_validation = model_1st_tour.predict(X_validation)
 mae_validation = mean_absolute_error(y_validation, y_pred_validation, multioutput='uniform_average')
 
-print(f"📊 Validation Finale (2022) - MAE : {mae_validation:.4f}")
+# � Affichage des résultats de validation
+print(f"� MAE pour le premier tour (Validation 2022) : {mae_validation:.4f}")
