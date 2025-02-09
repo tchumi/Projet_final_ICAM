@@ -12,12 +12,9 @@ df = pd.read_csv(data_path, dtype={"codecommune": str, "année": int})
 # 📂 Définition du chemin de sauvegarde du modèle
 model_path = "C:/Users/Admin.local/Documents/Projet_final_data/XGBoost_model_1er_tour.json"
 
-# 📌 Sélection des features et cibles pour le 1ᵉʳ tour
+
 features_1er_tour = [
-    'exprimes', 'voteG', 'voteCG', 'voteC', 'voteCD', 'voteD',
-    'voteTG', 'voteTD', 'voteGCG', 'voteDCD', 'pvoteG', 'pvoteCG',
-    'pvoteC', 'pvoteCD', 'pvoteD', 'pvoteTG', 'pvoteTD', 'pvoteTGratio',
-    'pvoteTDratio', 'cluster_corrige_1er_tour', 'revratio', 'pchom', 'pouvr', 'pcadr', 'pibratio'
+    'exprimes', 'revratio', 'pchom', 'pouvr', 'pcadr', 'pibratio'
 ]
 
 vote_columns = ["pvoteG", "pvoteCG", "pvoteC", "pvoteCD", "pvoteD"]
@@ -36,7 +33,7 @@ if st.button("🚀 Entraîner le Modèle XGBoost"):
     df_train = df[df["année"] <= annee_train]
     X_train, y_train = df_train[features_1er_tour], df_train[vote_columns]
 
-    model = xgb.XGBRegressor(objective="reg:squarederror", n_estimators=200, learning_rate=0.05, max_depth=8, reg_lambda=1)
+    model = xgb.XGBRegressor(objective="reg:squarederror", n_estimators=100, learning_rate=0.1, max_depth=6)
     model.fit(X_train, y_train)
 
     model.save_model(model_path)
