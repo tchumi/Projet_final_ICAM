@@ -1,3 +1,36 @@
+"""
+Ce script Streamlit permet de simuler les résultats du 1er tour des élections en utilisant un modèle XGBoost.
+Fonctionnalités :
+- Chargement des données électorales et socio-économiques.
+- Entraînement d'un modèle XGBoost sur les données jusqu'à une année sélectionnée.
+- Sauvegarde du modèle entraîné.
+- Chargement d'un modèle pré-entraîné pour effectuer des simulations.
+- Interface utilisateur pour ajuster les paramètres socio-économiques et simuler les résultats électoraux.
+- Affichage des résultats réels et simulés sous forme de camemberts pour chaque cluster.
+Bibliothèques utilisées :
+- streamlit : pour créer l'interface utilisateur interactive.
+- pandas : pour la manipulation des données.
+- xgboost : pour l'entraînement et l'utilisation du modèle XGBoost.
+- numpy : pour les opérations numériques.
+- matplotlib : pour la visualisation des résultats.
+- os : pour vérifier l'existence du fichier de modèle sauvegardé.
+Variables principales :
+- data_path : chemin vers le fichier CSV contenant les données originales.
+- model_path : chemin vers le fichier de sauvegarde du modèle XGBoost.
+- features_1er_tour : liste des caractéristiques utilisées pour l'entraînement du modèle.
+- vote_columns : liste des colonnes représentant les votes pour chaque orientation politique.
+- vote_labels : liste des étiquettes correspondant aux orientations politiques.
+Interface utilisateur :
+- Sélection de l'année d'entraînement.
+- Bouton pour entraîner le modèle.
+- Vérification de l'existence d'un modèle pré-entraîné.
+- Sélection de l'année pour la simulation.
+- Sliders pour ajuster les paramètres socio-économiques.
+- Bouton pour lancer la simulation.
+- Affichage des résultats sous forme de camemberts comparant les votes réels et simulés pour chaque cluster.
+
+"""
+
 import streamlit as st
 import pandas as pd
 import xgboost as xgb
